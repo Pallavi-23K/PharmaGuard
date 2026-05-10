@@ -1,67 +1,77 @@
-# PharmaGuard — Professional README
+<div align="center">
 
-````md
-# PharmaGuard 🧬💊
+# 🧬 PharmaGuard 💊
 
-> AI-Powered Pharmacogenomic Decision Support System for Personalized Medicine
+### AI-Powered Pharmacogenomic Decision Support System
 
-PharmaGuard is an intelligent pharmacogenomic analysis platform that processes genomic VCF (Variant Call Format) files to identify clinically significant drug-gene interactions, predict adverse drug reactions (ADR), and generate personalized medication recommendations using Machine Learning.
+<img src="https://img.shields.io/badge/AI-Random%20Forest-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Backend-Flask-black?style=for-the-badge&logo=flask" />
+<img src="https://img.shields.io/badge/Frontend-React-blue?style=for-the-badge&logo=react" />
+<img src="https://img.shields.io/badge/Python-3.10-yellow?style=for-the-badge&logo=python" />
+<img src="https://img.shields.io/badge/Genomics-VCF-success?style=for-the-badge" />
 
-The platform combines pharmacogenomics, genomic variant interpretation, and AI-driven risk analysis to support precision medicine and safer therapeutic decisions.
+<br><br>
+
+> Personalized Medicine through AI, Pharmacogenomics, and Genomic Intelligence
+
+</div>
 
 ---
 
 # 📌 Overview
 
-Modern drug therapies can produce highly variable responses across patients due to genetic differences. PharmaGuard addresses this challenge by analyzing genomic variants associated with pharmacogenomic biomarkers and mapping them to medication-specific risk profiles.
+PharmaGuard is an intelligent pharmacogenomic analysis platform designed to analyze genomic VCF (Variant Call Format) files and identify clinically significant drug-gene interactions.
 
-The system enables:
-- Personalized dosage recommendations
-- Drug risk classification
-- ADR prediction
-- Clinical pharmacogenomic interpretation
-- AI-assisted therapeutic guidance
+The system leverages:
+- 🧬 Pharmacogenomics
+- 🤖 Machine Learning
+- 📊 Genomic Variant Analysis
+- 💊 Precision Medicine
+- 🧠 AI-generated Clinical Insights
 
----
-
-# 🚀 Key Features
-
-## 🧬 Genomic Analysis
-- Upload and parse VCF genomic files
-- Detect pharmacogenomic variants
-- Extract clinically relevant SNPs
-- Gene-drug interaction mapping
-
-## 💊 Pharmacogenomic Intelligence
-- Personalized drug response analysis
-- Drug metabolism prediction
-- Pharmacogene identification
-- Precision medicine recommendations
-
-## 🤖 Machine Learning Integration
-- Random Forest based risk prediction
-- Multi-factor drug risk scoring
-- ADR probability estimation
-- Clinical confidence scoring
-
-## 📊 Interactive Dashboard
-- Modern responsive UI
-- Real-time analysis visualization
-- Detailed drug risk reports
-- Variant snapshot tables
-- Clinical recommendation panels
-
-## 🧠 AI-Assisted Insights
-- AI-generated clinical summaries
-- Risk interpretation
-- Therapeutic guidance
-- Biological mechanism explanation
+to deliver personalized medication recommendations and adverse drug reaction predictions.
 
 ---
 
-# 💊 Supported Drugs & Genes
+# 🚀 Core Features
 
-| Drug | Pharmacogene | Clinical Relevance |
+## 🧬 Genomic Analysis Engine
+✔️ Upload and parse VCF genomic files  
+✔️ Detect pharmacogenomic biomarkers  
+✔️ Extract clinically relevant SNPs  
+✔️ Variant-to-drug mapping  
+
+---
+
+## 💊 Precision Drug Intelligence
+✔️ Personalized dosage recommendations  
+✔️ Drug metabolism prediction  
+✔️ Gene-drug interaction analysis  
+✔️ Therapeutic risk classification  
+
+---
+
+## 🤖 Machine Learning Powered
+✔️ Random Forest based prediction engine  
+✔️ ADR risk prediction  
+✔️ Confidence score generation  
+✔️ Phenotype classification  
+✔️ Risk categorization (Low / Moderate / High)
+
+---
+
+## 📊 Advanced Dashboard
+✔️ Interactive analysis interface  
+✔️ Real-time genomic interpretation  
+✔️ Variant snapshot tables  
+✔️ Clinical recommendation panels  
+✔️ AI-powered summaries  
+
+---
+
+# 💊 Supported Pharmacogenomic Drugs
+
+| 💊 Drug | 🧬 Gene | ⚕️ Clinical Relevance |
 |------|------|------|
 | CODEINE | CYP2D6 | Drug metabolism |
 | WARFARIN | VKORC1 | Dosage sensitivity |
@@ -74,41 +84,24 @@ The system enables:
 
 # 🧠 Machine Learning Architecture
 
-PharmaGuard uses a **Random Forest Classifier** trained on pharmacogenomic variant-response relationships to classify patient-specific medication risks.
-
-## ML Capabilities
-- Drug risk classification
-- ADR prediction
-- Dosage adjustment recommendation
-- Confidence scoring
-- Phenotype prediction
-
-## Risk Categories
-- Low Risk
-- Moderate Risk
-- High Risk
-
----
-
-# 🏗️ System Architecture
+<div align="center">
 
 ```text
-VCF File Upload
-       ↓
-Variant Parsing Engine
-       ↓
+VCF Upload
+    ↓
+Variant Parsing
+    ↓
 Pharmacogene Detection
-       ↓
+    ↓
 Drug-Gene Mapping
-       ↓
+    ↓
 Random Forest Prediction
-       ↓
-Clinical Risk Analysis
-       ↓
+    ↓
+ADR Risk Classification
+    ↓
+Clinical Recommendation
+    ↓
 AI Summary Generation
-       ↓
-Interactive Dashboard
-````
 
 ---
 
