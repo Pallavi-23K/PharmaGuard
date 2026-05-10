@@ -309,10 +309,7 @@ PharmaGuard generates:
 # 📈 Future Enhancements
 
 🚀 Deep Learning integration  
-🚀 Expanded drug database  
-🚀 CPIC guideline integration  
-🚀 Cloud deployment  
-🚀 Electronic Health Record integration  
+🚀 Expanded drug database    
 🚀 Multi-patient genomic analytics  
 🚀 Real-time genomic pipelines  
 
