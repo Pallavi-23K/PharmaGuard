@@ -154,8 +154,7 @@ PharmaGuard/
 │
 ├── .env.example
 ├── .gitignore
-├── README.md
-└── requirements.txt
+
 ```
 
 ---
